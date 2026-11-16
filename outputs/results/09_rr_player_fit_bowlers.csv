@@ -1,0 +1,11 @@
+rank,player,pid,Powerplay_balls,Powerplay_val100,Middle_balls,Middle_val100,Death_balls,Death_val100,main_phase,bowling_type,pace_or_spin,ipl_pressure_balls_per_season,ipl_2026_team,rr_fit_index,rr_need_phase
+1,Taskin Ahmed,2681,74,1.9,46,0.9,71,2.5,Powerplay,Right-arm Fast,Pace,0,Not in IPL 2026 squads,2.05,Death
+2,Matheesha Pathirana,8661,10,-0.2,151,1.7,169,7.6,Death,Right-arm Fast,Pace,45,Kolkata Knight Riders,5.48,Death
+3,Shaheen Afridi,6355,134,5.0,21,-0.3,47,2.0,Powerplay,Left-arm Fast,Pace,0,Not in IPL 2026 squads,1.67,Death
+4,Mitchell Santner,4101,56,0.7,197,5.6,62,0.6,Middle,Slow left-arm orthodox,Spin,25,Mumbai Indians,1.86,Death
+5,Kuldeep Yadav,3644,4,0.6,305,4.5,67,3.3,Middle,Left-arm Chinaman,Spin,66,Delhi Capitals,3.38,Death
+6,Jasprit Bumrah,2933,108,0.5,64,1.6,139,6.7,Death,Right-arm Fast,Pace,73,Mumbai Indians,4.91,Death
+7,Varun Chakravarthy,6256,44,1.1,266,-0.5,66,6.2,Middle,Right-arm Leg-Break,Spin,62,Kolkata Knight Riders,4.1,Death
+8,Rashid Khan,4722,78,1.3,347,3.8,116,0.4,Middle,Right-arm Leg-Break,Spin,66,Gujarat Titans,1.32,Death
+9,Lockie Ferguson,4692,68,-0.4,94,4.3,93,-0.1,Middle,Right-arm Fast,Pace,29,Punjab Kings,0.97,Death
+10,Mustafizur Rahman,4373,79,3.4,112,1.9,172,0.5,Death,Left-arm medium,Pace,30,Kolkata Knight Riders,1.09,Death

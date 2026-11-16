@@ -1,0 +1,32 @@
+{
+  "mean_bat_value_per_ball": 0.0062,
+  "mean_bowl_value_per_ball": -0.0073,
+  "x_bat_runs_vs_actual": [
+    1.4005,
+    1.4003
+  ],
+  "x_out_vs_actual": [
+    0.0551,
+    0.0546
+  ],
+  "x_bowl_runs_vs_actual": [
+    1.395,
+    1.3963
+  ],
+  "x_bowl_wkt_vs_actual": [
+    0.0514,
+    0.051
+  ],
+  "auc_striker_out": 0.5932,
+  "auc_bowler_wicket": 0.5874,
+  "wicket_cost_by_phase": {
+    "Death": 3.32,
+    "Middle": 6.04,
+    "Powerplay": 10.79
+  },
+  "wicket_cost_by_band": {
+    "High": 6.6,
+    "Moderate": 7.45,
+    "Ordinary": 6.77
+  }
+}

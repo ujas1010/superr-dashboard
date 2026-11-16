@@ -1,0 +1,11 @@
+rank,player,pid,Powerplay_balls,Powerplay_val100,Middle_balls,Middle_val100,Death_balls,Death_val100,main_phase,usual_position,hand,ipl_pressure_balls_per_season,ipl_2026_team,rr_fit_index,rr_need_phase
+1,Yashasvi Jaiswal,6819,153,15.0,89,-1.8,5,1.7,Powerplay,1,LHB,46,Rajasthan Royals,0.39,Death
+2,Travis Head,2367,174,17.6,38,-3.6,0,0.0,Powerplay,2,LHB,44,Sunrisers Hyderabad,-1.35,Death
+3,Josh Inglis,4736,60,8.2,70,3.5,9,-0.7,Middle,3,RHB,40,Lucknow Super Giants,0.88,Death
+4,Suryakumar Yadav,1699,86,0.1,322,13.9,91,10.1,Middle,4,RHB,60,Mumbai Indians,11.53,Death
+5,Mitchell Marsh,818,169,7.9,159,4.1,32,-0.1,Powerplay,2,RHB,47,Lucknow Super Giants,1.48,Death
+6,Kusal Mendis,3672,159,6.7,148,6.9,26,-1.0,Powerplay,2,RHB,2,Not in IPL 2026 squads,1.96,Death
+7,Rinku Singh,4708,9,0.5,87,-1.0,124,8.4,Death,6,LHB,37,Kolkata Knight Riders,4.88,Death
+8,Heinrich Klaasen,4260,12,-2.3,208,11.3,121,4.3,Middle,5,RHB,76,Sunrisers Hyderabad,6.93,Death
+9,Pathum Nissanka,6931,251,7.3,131,2.9,40,0.1,Powerplay,1,RHB,76,Delhi Capitals,1.15,Death
+10,Dasun Shanaka,2436,0,0.0,113,3.4,118,4.8,Death,6,RHB,14,Rajasthan Royals,4.28,Death

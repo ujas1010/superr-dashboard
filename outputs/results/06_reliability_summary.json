@@ -1,0 +1,22 @@
+{
+  "bat": {
+    "split_half_spearman": {
+      "rating": 0.085,
+      "P_level": 0.254,
+      "delta": 0.137,
+      "consistency": 0.117,
+      "players": 104
+    },
+    "top10_mean_p_top10": 0.492
+  },
+  "bowl": {
+    "split_half_spearman": {
+      "rating": 0.176,
+      "P_level": 0.219,
+      "delta": -0.123,
+      "consistency": 0.111,
+      "players": 106
+    },
+    "top10_mean_p_top10": 0.464
+  }
+}

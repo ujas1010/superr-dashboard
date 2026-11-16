@@ -1,0 +1,11 @@
+side,phase,rr_val100,league_avg_val100,rr_rank_of_10,rr_pressure_balls,best_team,best_val100
+Batting,All,22.0,12.0,2,680,Punjab Kings,36.5
+Batting,Powerplay,54.8,28.0,1,201,Rajasthan Royals,54.8
+Batting,Middle,14.1,5.8,4,273,Punjab Kings,25.3
+Batting,Death,0.4,6.0,6,206,Punjab Kings,64.0
+Bowling,All,-10.7,-9.6,6,825,Gujarat Titans,9.2
+Bowling,Powerplay,-15.6,-27.1,2,257,Gujarat Titans,22.5
+Bowling,Middle,1.8,-5.1,4,323,Kolkata Knight Riders,13.7
+Bowling,Death,-21.9,0.4,9,245,Sunrisers Hyderabad,39.8
+Bowling,All (Pace),-17.0,-12.5,5,556,Gujarat Titans,18.2
+Bowling,All (Spin),2.4,-6.7,4,269,Kolkata Knight Riders,15.3

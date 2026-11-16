@@ -1,0 +1,13 @@
+role,component,band,players,split_half_r
+bat,runs,High,52,0.235
+bat,runs,Ordinary,138,0.268
+bat,runs,All,208,0.423
+bat,wickets,High,52,-0.039
+bat,wickets,Ordinary,138,-0.02
+bat,wickets,All,208,0.217
+bowl,runs,High,60,0.262
+bowl,runs,Ordinary,155,0.345
+bowl,runs,All,223,0.221
+bowl,wickets,High,60,-0.005
+bowl,wickets,Ordinary,155,-0.039
+bowl,wickets,All,223,-0.007

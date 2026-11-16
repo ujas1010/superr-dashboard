@@ -1,0 +1,16 @@
+{
+  "raw_balls": 200999,
+  "raw_matches": 883,
+  "excluded_out_of_scope_matches": 30,
+  "excluded_no_result_matches": 41,
+  "excluded_no_ball_data_matches": 0,
+  "super_over_balls_dropped": 38,
+  "retirement_rows": 11,
+  "overs_with_6_legal_balls_pct": 98.23,
+  "clean_balls": 192056,
+  "clean_matches": 812,
+  "matches_by_competition": {
+    "T20I": 450,
+    "IPL": 362
+  }
+}

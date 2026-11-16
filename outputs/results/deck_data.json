@@ -1,0 +1,904 @@
+{
+  "scope": {
+    "raw_balls": 200999,
+    "raw_matches": 883,
+    "excluded_out_of_scope_matches": 30,
+    "excluded_no_result_matches": 41,
+    "excluded_no_ball_data_matches": 0,
+    "super_over_balls_dropped": 38,
+    "retirement_rows": 11,
+    "overs_with_6_legal_balls_pct": 98.23,
+    "clean_balls": 192056,
+    "clean_matches": 812,
+    "matches_by_competition": {
+      "T20I": 450,
+      "IPL": 362
+    }
+  },
+  "wp": {
+    "wp_innings1": {
+      "auc": 0.6568,
+      "brier": 0.254,
+      "log_loss": 0.7658
+    },
+    "wp_innings2": {
+      "auc": 0.8772,
+      "brier": 0.1442,
+      "log_loss": 0.4539
+    }
+  },
+  "pi_high": 1.5128,
+  "pi_ord": 0.6212,
+  "band": [
+    {
+      "pressure_band": "High",
+      "balls": 36600,
+      "run_rate": 8.81,
+      "dot_pct": 33.71,
+      "boundary_pct": 19.3,
+      "wicket_pct": 6.24,
+      "mean_abs_wp_from_half": 0.18
+    },
+    {
+      "pressure_band": "Moderate",
+      "balls": 55162,
+      "run_rate": 8.56,
+      "dot_pct": 34.97,
+      "boundary_pct": 18.87,
+      "wicket_pct": 5.43,
+      "mean_abs_wp_from_half": 0.23
+    },
+    {
+      "pressure_band": "Ordinary",
+      "balls": 92069,
+      "run_rate": 8.43,
+      "dot_pct": 36.01,
+      "boundary_pct": 18.54,
+      "wicket_pct": 5.49,
+      "mean_abs_wp_from_half": 0.36
+    }
+  ],
+  "top_decile": {
+    "mean_pi": 3.9,
+    "balls": 18263.0,
+    "run_rate": 9.0,
+    "dot_pct": 32.6,
+    "boundary_pct": 19.4,
+    "wicket_pct": 6.9,
+    "pct_second_innings": 80.8,
+    "pct_death": 39.0
+  },
+  "low_half_death": 20.1,
+  "wicket_cost": {
+    "Death": 3.32,
+    "Middle": 6.04,
+    "Powerplay": 10.79
+  },
+  "weights": {
+    "pressure_level": 0.5,
+    "pressure_delta": 0.25,
+    "consistency": 0.25
+  },
+  "elig": {
+    "bat": [
+      120,
+      12,
+      150
+    ],
+    "bowl": [
+      120,
+      12,
+      150
+    ]
+  },
+  "reliability": {
+    "bat": {
+      "split_half_spearman": {
+        "rating": 0.085,
+        "P_level": 0.254,
+        "delta": 0.137,
+        "consistency": 0.117,
+        "players": 104
+      },
+      "top10_mean_p_top10": 0.492
+    },
+    "bowl": {
+      "split_half_spearman": {
+        "rating": 0.176,
+        "P_level": 0.219,
+        "delta": -0.123,
+        "consistency": 0.111,
+        "players": 106
+      },
+      "top10_mean_p_top10": 0.464
+    }
+  },
+  "rr_profile": [
+    {
+      "side": "Batting",
+      "phase": "All",
+      "rr_val100": 22.0,
+      "league_avg_val100": 12.0,
+      "rr_rank_of_10": 2,
+      "rr_pressure_balls": 680,
+      "best_team": "Punjab Kings",
+      "best_val100": 36.5
+    },
+    {
+      "side": "Batting",
+      "phase": "Powerplay",
+      "rr_val100": 54.8,
+      "league_avg_val100": 28.0,
+      "rr_rank_of_10": 1,
+      "rr_pressure_balls": 201,
+      "best_team": "Rajasthan Royals",
+      "best_val100": 54.8
+    },
+    {
+      "side": "Batting",
+      "phase": "Middle",
+      "rr_val100": 14.1,
+      "league_avg_val100": 5.8,
+      "rr_rank_of_10": 4,
+      "rr_pressure_balls": 273,
+      "best_team": "Punjab Kings",
+      "best_val100": 25.3
+    },
+    {
+      "side": "Batting",
+      "phase": "Death",
+      "rr_val100": 0.4,
+      "league_avg_val100": 6.0,
+      "rr_rank_of_10": 6,
+      "rr_pressure_balls": 206,
+      "best_team": "Punjab Kings",
+      "best_val100": 64.0
+    },
+    {
+      "side": "Bowling",
+      "phase": "All",
+      "rr_val100": -10.7,
+      "league_avg_val100": -9.6,
+      "rr_rank_of_10": 6,
+      "rr_pressure_balls": 825,
+      "best_team": "Gujarat Titans",
+      "best_val100": 9.2
+    },
+    {
+      "side": "Bowling",
+      "phase": "Powerplay",
+      "rr_val100": -15.6,
+      "league_avg_val100": -27.1,
+      "rr_rank_of_10": 2,
+      "rr_pressure_balls": 257,
+      "best_team": "Gujarat Titans",
+      "best_val100": 22.5
+    },
+    {
+      "side": "Bowling",
+      "phase": "Middle",
+      "rr_val100": 1.8,
+      "league_avg_val100": -5.1,
+      "rr_rank_of_10": 4,
+      "rr_pressure_balls": 323,
+      "best_team": "Kolkata Knight Riders",
+      "best_val100": 13.7
+    },
+    {
+      "side": "Bowling",
+      "phase": "Death",
+      "rr_val100": -21.9,
+      "league_avg_val100": 0.4,
+      "rr_rank_of_10": 9,
+      "rr_pressure_balls": 245,
+      "best_team": "Sunrisers Hyderabad",
+      "best_val100": 39.8
+    },
+    {
+      "side": "Bowling",
+      "phase": "All (Pace)",
+      "rr_val100": -17.0,
+      "league_avg_val100": -12.5,
+      "rr_rank_of_10": 5,
+      "rr_pressure_balls": 556,
+      "best_team": "Gujarat Titans",
+      "best_val100": 18.2
+    },
+    {
+      "side": "Bowling",
+      "phase": "All (Spin)",
+      "rr_val100": 2.4,
+      "league_avg_val100": -6.7,
+      "rr_rank_of_10": 4,
+      "rr_pressure_balls": 269,
+      "best_team": "Kolkata Knight Riders",
+      "best_val100": 15.3
+    }
+  ],
+  "batters": [
+    {
+      "rank": 1,
+      "player": "Yashasvi Jaiswal",
+      "rating": 0.698,
+      "pressure_balls": 247,
+      "value100": 12.6,
+      "consistency": 84,
+      "p_top10": 84,
+      "ipl_2026": "Rajasthan Royals",
+      "fit_index": 0.39,
+      "main_phase": "Powerplay",
+      "best_phase": "Powerplay",
+      "tier": "Retain",
+      "why": "Best: Powerplay (RR batting there #1/10). Per 100 pressure balls: PP +15.0, Mid -1.8, Death +1.7.",
+      "caveat": "",
+      "sr_p": 179,
+      "sr_o": 147,
+      "avg_p": 36.8,
+      "role": "Opener, LHB"
+    },
+    {
+      "rank": 2,
+      "player": "Travis Head",
+      "rating": 0.629,
+      "pressure_balls": 212,
+      "value100": 13.9,
+      "consistency": 79,
+      "p_top10": 70,
+      "ipl_2026": "Sunrisers Hyderabad",
+      "fit_index": -1.35,
+      "main_phase": "Powerplay",
+      "best_phase": "Powerplay",
+      "tier": "Lower priority",
+      "why": "Best: Powerplay (RR batting there #1/10). Per 100 pressure balls: PP +17.6, Mid -3.6, Death +0.0.",
+      "caveat": "",
+      "sr_p": 188,
+      "sr_o": 168,
+      "avg_p": 44.2,
+      "role": "Opener, LHB"
+    },
+    {
+      "rank": 3,
+      "player": "Josh Inglis",
+      "rating": 0.593,
+      "pressure_balls": 139,
+      "value100": 9.6,
+      "consistency": 83,
+      "p_top10": 48,
+      "ipl_2026": "Lucknow Super Giants",
+      "fit_index": 0.88,
+      "main_phase": "Middle",
+      "best_phase": "Powerplay",
+      "tier": "Depth option",
+      "why": "Best: Powerplay (RR batting there #1/10). Per 100 pressure balls: PP +8.2, Mid +3.5, Death -0.7.",
+      "caveat": "",
+      "sr_p": 182,
+      "sr_o": 146,
+      "avg_p": 42.2,
+      "role": "Top order (#3), RHB"
+    },
+    {
+      "rank": 4,
+      "player": "Suryakumar Yadav",
+      "rating": 0.591,
+      "pressure_balls": 499,
+      "value100": 16.3,
+      "consistency": 74,
+      "p_top10": 69,
+      "ipl_2026": "Mumbai Indians",
+      "fit_index": 11.53,
+      "main_phase": "Middle",
+      "best_phase": "Middle",
+      "tier": "Priority target",
+      "why": "Best: Middle (RR batting there #4/10). Per 100 pressure balls: PP +0.1, Mid +13.9, Death +10.1.",
+      "caveat": "",
+      "sr_p": 175,
+      "sr_o": 170,
+      "avg_p": 32.4,
+      "role": "Middle order, RHB"
+    },
+    {
+      "rank": 5,
+      "player": "Mitchell Marsh",
+      "rating": 0.478,
+      "pressure_balls": 360,
+      "value100": 9.2,
+      "consistency": 78,
+      "p_top10": 39,
+      "ipl_2026": "Lucknow Super Giants",
+      "fit_index": 1.48,
+      "main_phase": "Powerplay",
+      "best_phase": "Powerplay",
+      "tier": "Lower priority",
+      "why": "Best: Powerplay (RR batting there #1/10). Per 100 pressure balls: PP +7.9, Mid +4.1, Death -0.1.",
+      "caveat": "",
+      "sr_p": 157,
+      "sr_o": 158,
+      "avg_p": 56.6,
+      "role": "Opener, RHB"
+    },
+    {
+      "rank": 6,
+      "player": "Kusal Mendis",
+      "rating": 0.442,
+      "pressure_balls": 333,
+      "value100": 10.0,
+      "consistency": 75,
+      "p_top10": 39,
+      "ipl_2026": "Not in IPL 2026 squads",
+      "fit_index": 1.96,
+      "main_phase": "Powerplay",
+      "best_phase": "Middle",
+      "tier": "Lower priority",
+      "why": "Best: Middle (RR batting there #4/10). Per 100 pressure balls: PP +6.7, Mid +6.9, Death -1.0.",
+      "caveat": "not in an IPL 2026 squad, must enter the auction pool",
+      "sr_p": 141,
+      "sr_o": 133,
+      "avg_p": 52.3,
+      "role": "Opener, RHB"
+    },
+    {
+      "rank": 7,
+      "player": "Rinku Singh",
+      "rating": 0.426,
+      "pressure_balls": 220,
+      "value100": 6.9,
+      "consistency": 78,
+      "p_top10": 45,
+      "ipl_2026": "Kolkata Knight Riders",
+      "fit_index": 4.88,
+      "main_phase": "Death",
+      "best_phase": "Death",
+      "tier": "Priority target",
+      "why": "Best: Death (RR batting there #6/10). Per 100 pressure balls: PP +0.5, Mid -1.0, Death +8.4.",
+      "caveat": "",
+      "sr_p": 165,
+      "sr_o": 150,
+      "avg_p": 60.7,
+      "role": "Finisher, LHB"
+    },
+    {
+      "rank": 8,
+      "player": "Heinrich Klaasen",
+      "rating": 0.425,
+      "pressure_balls": 341,
+      "value100": 11.3,
+      "consistency": 72,
+      "p_top10": 33,
+      "ipl_2026": "Sunrisers Hyderabad",
+      "fit_index": 6.93,
+      "main_phase": "Middle",
+      "best_phase": "Middle",
+      "tier": "Priority target",
+      "why": "Best: Middle (RR batting there #4/10). Per 100 pressure balls: PP -2.3, Mid +11.3, Death +4.3.",
+      "caveat": "",
+      "sr_p": 176,
+      "sr_o": 163,
+      "avg_p": 46.1,
+      "role": "Middle order, RHB"
+    },
+    {
+      "rank": 9,
+      "player": "Pathum Nissanka",
+      "rating": 0.424,
+      "pressure_balls": 422,
+      "value100": 7.8,
+      "consistency": 77,
+      "p_top10": 32,
+      "ipl_2026": "Delhi Capitals",
+      "fit_index": 1.15,
+      "main_phase": "Powerplay",
+      "best_phase": "Powerplay",
+      "tier": "Lower priority",
+      "why": "Best: Powerplay (RR batting there #1/10). Per 100 pressure balls: PP +7.3, Mid +2.9, Death +0.1.",
+      "caveat": "",
+      "sr_p": 142,
+      "sr_o": 133,
+      "avg_p": 29.9,
+      "role": "Opener, RHB"
+    },
+    {
+      "rank": 10,
+      "player": "Dasun Shanaka",
+      "rating": 0.413,
+      "pressure_balls": 231,
+      "value100": 6.7,
+      "consistency": 78,
+      "p_top10": 32,
+      "ipl_2026": "Rajasthan Royals",
+      "fit_index": 4.28,
+      "main_phase": "Death",
+      "best_phase": "Death",
+      "tier": "Retain",
+      "why": "Best: Death (RR batting there #6/10). Per 100 pressure balls: PP +0.0, Mid +3.4, Death +4.8.",
+      "caveat": "",
+      "sr_p": 150,
+      "sr_o": 134,
+      "avg_p": 26.7,
+      "role": "Finisher, RHB"
+    }
+  ],
+  "need_batters": {
+    "Powerplay": 0.0,
+    "Middle": 0.375,
+    "Death": 0.6250000000000001
+  },
+  "bowlers": [
+    {
+      "rank": 1,
+      "player": "Taskin Ahmed",
+      "rating": 0.494,
+      "pressure_balls": 191,
+      "value100": 4.6,
+      "consistency": 85,
+      "p_top10": 67,
+      "ipl_2026": "Not in IPL 2026 squads",
+      "fit_index": 2.05,
+      "main_phase": "Powerplay",
+      "best_phase": "Death",
+      "tier": "Lower priority",
+      "why": "Best: Death (RR bowling there #9/10). Per 100 pressure balls: PP +1.9, Mid +0.9, Death +2.5.",
+      "caveat": "not in an IPL 2026 squad, must enter the auction pool",
+      "econ_p": 6.98,
+      "econ_o": 8.75,
+      "wkts_p": 15,
+      "role": "Right-arm Fast"
+    },
+    {
+      "rank": 2,
+      "player": "Matheesha Pathirana",
+      "rating": 0.491,
+      "pressure_balls": 330,
+      "value100": 7.7,
+      "consistency": 82,
+      "p_top10": 62,
+      "ipl_2026": "Kolkata Knight Riders",
+      "fit_index": 5.48,
+      "main_phase": "Death",
+      "best_phase": "Death",
+      "tier": "Priority target",
+      "why": "Best: Death (RR bowling there #9/10). Per 100 pressure balls: PP -0.2, Mid +1.7, Death +7.6.",
+      "caveat": "",
+      "econ_p": 8.78,
+      "econ_o": 8.52,
+      "wkts_p": 25,
+      "role": "Right-arm Fast"
+    },
+    {
+      "rank": 3,
+      "player": "Shaheen Afridi",
+      "rating": 0.471,
+      "pressure_balls": 202,
+      "value100": 6.1,
+      "consistency": 82,
+      "p_top10": 55,
+      "ipl_2026": "Not in IPL 2026 squads",
+      "fit_index": 1.67,
+      "main_phase": "Powerplay",
+      "best_phase": "Powerplay",
+      "tier": "Unlikely available",
+      "why": "Best: Powerplay (RR bowling there #2/10). Per 100 pressure balls: PP +5.0, Mid -0.3, Death +2.0.",
+      "caveat": "Pakistan players have not played in the IPL since 2008",
+      "econ_p": 6.22,
+      "econ_o": 8.61,
+      "wkts_p": 14,
+      "role": "Left-arm Fast"
+    },
+    {
+      "rank": 4,
+      "player": "Mitchell Santner",
+      "rating": 0.464,
+      "pressure_balls": 315,
+      "value100": 5.9,
+      "consistency": 82,
+      "p_top10": 55,
+      "ipl_2026": "Mumbai Indians",
+      "fit_index": 1.86,
+      "main_phase": "Middle",
+      "best_phase": "Middle",
+      "tier": "Strong option",
+      "why": "Best: Middle (RR bowling there #4/10). Per 100 pressure balls: PP +0.7, Mid +5.6, Death +0.6.",
+      "caveat": "",
+      "econ_p": 6.79,
+      "econ_o": 7.82,
+      "wkts_p": 21,
+      "role": "Slow left-arm orthodox"
+    },
+    {
+      "rank": 5,
+      "player": "Kuldeep Yadav",
+      "rating": 0.451,
+      "pressure_balls": 376,
+      "value100": 7.0,
+      "consistency": 81,
+      "p_top10": 51,
+      "ipl_2026": "Delhi Capitals",
+      "fit_index": 3.38,
+      "main_phase": "Middle",
+      "best_phase": "Middle",
+      "tier": "Strong option",
+      "why": "Best: Middle (RR bowling there #4/10). Per 100 pressure balls: PP +0.6, Mid +4.5, Death +3.3.",
+      "caveat": "",
+      "econ_p": 7.54,
+      "econ_o": 8.0,
+      "wkts_p": 22,
+      "role": "Left-arm Chinaman"
+    },
+    {
+      "rank": 6,
+      "player": "Jasprit Bumrah",
+      "rating": 0.426,
+      "pressure_balls": 311,
+      "value100": 7.2,
+      "consistency": 80,
+      "p_top10": 48,
+      "ipl_2026": "Mumbai Indians",
+      "fit_index": 4.91,
+      "main_phase": "Death",
+      "best_phase": "Death",
+      "tier": "Priority target",
+      "why": "Best: Death (RR bowling there #9/10). Per 100 pressure balls: PP +0.5, Mid +1.6, Death +6.7.",
+      "caveat": "",
+      "econ_p": 7.8,
+      "econ_o": 7.26,
+      "wkts_p": 14,
+      "role": "Right-arm Fast"
+    },
+    {
+      "rank": 7,
+      "player": "Varun Chakravarthy",
+      "rating": 0.382,
+      "pressure_balls": 376,
+      "value100": 4.7,
+      "consistency": 80,
+      "p_top10": 34,
+      "ipl_2026": "Kolkata Knight Riders",
+      "fit_index": 4.1,
+      "main_phase": "Middle",
+      "best_phase": "Death",
+      "tier": "Priority target",
+      "why": "Best: Death (RR bowling there #9/10). Per 100 pressure balls: PP +1.1, Mid -0.5, Death +6.2.",
+      "caveat": "",
+      "econ_p": 7.88,
+      "econ_o": 8.0,
+      "wkts_p": 27,
+      "role": "Right-arm Leg-Break"
+    },
+    {
+      "rank": 8,
+      "player": "Rashid Khan",
+      "rating": 0.358,
+      "pressure_balls": 541,
+      "value100": 4.3,
+      "consistency": 80,
+      "p_top10": 32,
+      "ipl_2026": "Gujarat Titans",
+      "fit_index": 1.32,
+      "main_phase": "Middle",
+      "best_phase": "Middle",
+      "tier": "Depth option",
+      "why": "Best: Middle (RR bowling there #4/10). Per 100 pressure balls: PP +1.3, Mid +3.8, Death +0.4.",
+      "caveat": "",
+      "econ_p": 7.71,
+      "econ_o": 7.1,
+      "wkts_p": 33,
+      "role": "Right-arm Leg-Break"
+    },
+    {
+      "rank": 9,
+      "player": "Lockie Ferguson",
+      "rating": 0.346,
+      "pressure_balls": 255,
+      "value100": 3.3,
+      "consistency": 80,
+      "p_top10": 32,
+      "ipl_2026": "Punjab Kings",
+      "fit_index": 0.97,
+      "main_phase": "Middle",
+      "best_phase": "Middle",
+      "tier": "Depth option",
+      "why": "Best: Middle (RR bowling there #4/10). Per 100 pressure balls: PP -0.4, Mid +4.3, Death -0.1.",
+      "caveat": "",
+      "econ_p": 8.86,
+      "econ_o": 8.9,
+      "wkts_p": 18,
+      "role": "Right-arm Fast"
+    },
+    {
+      "rank": 10,
+      "player": "Mustafizur Rahman",
+      "rating": 0.339,
+      "pressure_balls": 363,
+      "value100": 4.4,
+      "consistency": 79,
+      "p_top10": 28,
+      "ipl_2026": "Kolkata Knight Riders",
+      "fit_index": 1.09,
+      "main_phase": "Death",
+      "best_phase": "Powerplay",
+      "tier": "Depth option",
+      "why": "Best: Powerplay (RR bowling there #2/10). Per 100 pressure balls: PP +3.4, Mid +1.9, Death +0.5.",
+      "caveat": "",
+      "econ_p": 8.41,
+      "econ_o": 7.51,
+      "wkts_p": 20,
+      "role": "Left-arm medium"
+    }
+  ],
+  "need_bowlers": {
+    "Powerplay": 0.08333333333333333,
+    "Middle": 0.25,
+    "Death": 0.6666666666666666
+  },
+  "rr_death_bowlers_2026": [
+    {
+      "bowler_name": "Jofra Archer",
+      "balls": 45,
+      "val100": 37.2
+    },
+    {
+      "bowler_name": "Brijesh Sharma",
+      "balls": 30,
+      "val100": 7.4
+    },
+    {
+      "bowler_name": "Ravi Bishnoi",
+      "balls": 15,
+      "val100": -95.7
+    },
+    {
+      "bowler_name": "Sandeep Sharma",
+      "balls": 14,
+      "val100": -149.6
+    },
+    {
+      "bowler_name": "Tushar Deshpande",
+      "balls": 11,
+      "val100": 4.9
+    },
+    {
+      "bowler_name": "Adam Milne",
+      "balls": 9,
+      "val100": -50.0
+    }
+  ],
+  "rr_squad_2026": [
+    "Ravindra Jadeja",
+    "Adam Milne",
+    "Sandeep Sharma",
+    "Dasun Shanaka",
+    "Shimron Hetmyer",
+    "Jofra Archer",
+    "Sam Curran",
+    "Riyan Parag",
+    "Tushar Deshpande",
+    "Yashasvi Jaiswal",
+    "Dhruv Jurel",
+    "Sushant Mishra",
+    "Nandre Burger",
+    "Ravi Bishnoi",
+    "Kuldeep Sen",
+    "Donovan Ferreira",
+    "Yudhvir Singh",
+    "Shubham Dubey",
+    "Kwena Maphaka",
+    "Yash Punja",
+    "Lhuan Pretorius",
+    "Emanjot Singh Chahal",
+    "Aman Rao Perala",
+    "Vignesh Puthur",
+    "Vaibhav Sooryavanshi",
+    "Ravi Singh",
+    "Brijesh Sharma"
+  ],
+  "sens_batting": [
+    {
+      "scenario": "High = top 15%",
+      "top10_overlap": 8,
+      "spearman_vs_base": 0.859,
+      "eligible": 75
+    },
+    {
+      "scenario": "High = top 25%",
+      "top10_overlap": 4,
+      "spearman_vs_base": 0.859,
+      "eligible": 124
+    },
+    {
+      "scenario": "High = top 30%",
+      "top10_overlap": 4,
+      "spearman_vs_base": 0.758,
+      "eligible": 136
+    },
+    {
+      "scenario": "Alternative rule-based index",
+      "top10_overlap": 2,
+      "spearman_vs_base": 0.461,
+      "eligible": 48
+    },
+    {
+      "scenario": "Equal weights (1/3 each)",
+      "top10_overlap": 9,
+      "spearman_vs_base": 0.99,
+      "eligible": 104
+    },
+    {
+      "scenario": "Level 0.6 / delta 0.2 / consistency 0.2",
+      "top10_overlap": 9,
+      "spearman_vs_base": 0.995,
+      "eligible": 104
+    },
+    {
+      "scenario": "Pressure level only",
+      "top10_overlap": 7,
+      "spearman_vs_base": 0.9,
+      "eligible": 104
+    },
+    {
+      "scenario": "No delta (level 0.67 / consistency 0.33)",
+      "top10_overlap": 10,
+      "spearman_vs_base": 1.0,
+      "eligible": 104
+    },
+    {
+      "scenario": "Stricter eligibility (+50%)",
+      "top10_overlap": 9,
+      "spearman_vs_base": 1.0,
+      "eligible": 60
+    },
+    {
+      "scenario": "Looser eligibility (-33%)",
+      "top10_overlap": 9,
+      "spearman_vs_base": 1.0,
+      "eligible": 139
+    }
+  ],
+  "sens_bowling": [
+    {
+      "scenario": "High = top 15%",
+      "top10_overlap": 4,
+      "spearman_vs_base": 0.833,
+      "eligible": 80
+    },
+    {
+      "scenario": "High = top 25%",
+      "top10_overlap": 6,
+      "spearman_vs_base": 0.848,
+      "eligible": 126
+    },
+    {
+      "scenario": "High = top 30%",
+      "top10_overlap": 5,
+      "spearman_vs_base": 0.816,
+      "eligible": 141
+    },
+    {
+      "scenario": "Alternative rule-based index",
+      "top10_overlap": 4,
+      "spearman_vs_base": 0.524,
+      "eligible": 100
+    },
+    {
+      "scenario": "Equal weights (1/3 each)",
+      "top10_overlap": 9,
+      "spearman_vs_base": 0.994,
+      "eligible": 106
+    },
+    {
+      "scenario": "Level 0.6 / delta 0.2 / consistency 0.2",
+      "top10_overlap": 10,
+      "spearman_vs_base": 0.998,
+      "eligible": 106
+    },
+    {
+      "scenario": "Pressure level only",
+      "top10_overlap": 7,
+      "spearman_vs_base": 0.871,
+      "eligible": 106
+    },
+    {
+      "scenario": "No delta (level 0.67 / consistency 0.33)",
+      "top10_overlap": 10,
+      "spearman_vs_base": 1.0,
+      "eligible": 106
+    },
+    {
+      "scenario": "Stricter eligibility (+50%)",
+      "top10_overlap": 10,
+      "spearman_vs_base": 0.999,
+      "eligible": 68
+    },
+    {
+      "scenario": "Looser eligibility (-33%)",
+      "top10_overlap": 9,
+      "spearman_vs_base": 1.0,
+      "eligible": 144
+    }
+  ],
+  "component_rel": [
+    {
+      "role": "bat",
+      "component": "runs",
+      "band": "High",
+      "players": 52,
+      "split_half_r": 0.235
+    },
+    {
+      "role": "bat",
+      "component": "runs",
+      "band": "Ordinary",
+      "players": 138,
+      "split_half_r": 0.268
+    },
+    {
+      "role": "bat",
+      "component": "runs",
+      "band": "All",
+      "players": 208,
+      "split_half_r": 0.423
+    },
+    {
+      "role": "bat",
+      "component": "wickets",
+      "band": "High",
+      "players": 52,
+      "split_half_r": -0.039
+    },
+    {
+      "role": "bat",
+      "component": "wickets",
+      "band": "Ordinary",
+      "players": 138,
+      "split_half_r": -0.02
+    },
+    {
+      "role": "bat",
+      "component": "wickets",
+      "band": "All",
+      "players": 208,
+      "split_half_r": 0.217
+    },
+    {
+      "role": "bowl",
+      "component": "runs",
+      "band": "High",
+      "players": 60,
+      "split_half_r": 0.262
+    },
+    {
+      "role": "bowl",
+      "component": "runs",
+      "band": "Ordinary",
+      "players": 155,
+      "split_half_r": 0.345
+    },
+    {
+      "role": "bowl",
+      "component": "runs",
+      "band": "All",
+      "players": 223,
+      "split_half_r": 0.221
+    },
+    {
+      "role": "bowl",
+      "component": "wickets",
+      "band": "High",
+      "players": 60,
+      "split_half_r": -0.005
+    },
+    {
+      "role": "bowl",
+      "component": "wickets",
+      "band": "Ordinary",
+      "players": 155,
+      "split_half_r": -0.039
+    },
+    {
+      "role": "bowl",
+      "component": "wickets",
+      "band": "All",
+      "players": 223,
+      "split_half_r": -0.007
+    }
+  ],
+  "fig_dir": "D:/SupeRR Selector Season 2/outputs/figures"
+}

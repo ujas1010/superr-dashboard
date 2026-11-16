@@ -1,0 +1,43 @@
+{
+  "wp_innings1": {
+    "auc": 0.6568,
+    "brier": 0.254,
+    "log_loss": 0.7658
+  },
+  "wp_innings2": {
+    "auc": 0.8772,
+    "brier": 0.1442,
+    "log_loss": 0.4539
+  },
+  "pi_high_threshold": 1.5128,
+  "pi_ordinary_threshold": 0.6212,
+  "band_summary": [
+    {
+      "pressure_band": "High",
+      "balls": 36600,
+      "run_rate": 8.806,
+      "dot_pct": 33.713,
+      "boundary_pct": 19.295,
+      "wicket_pct": 6.235,
+      "mean_abs_wp_from_half": 0.183
+    },
+    {
+      "pressure_band": "Moderate",
+      "balls": 55162,
+      "run_rate": 8.56,
+      "dot_pct": 34.968,
+      "boundary_pct": 18.872,
+      "wicket_pct": 5.426,
+      "mean_abs_wp_from_half": 0.227
+    },
+    {
+      "pressure_band": "Ordinary",
+      "balls": 92069,
+      "run_rate": 8.429,
+      "dot_pct": 36.013,
+      "boundary_pct": 18.542,
+      "wicket_pct": 5.493,
+      "mean_abs_wp_from_half": 0.365
+    }
+  ]
+}
